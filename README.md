@@ -7,11 +7,11 @@ Tool to Validate ML Models in a holistic manner using existing methods. Helps to
 2. These files are the starting point if one wishes to have a look at. The research citations and documentations have been provided wherever necessary in these files. 
 3. UserModel files need to be created by users like ML Developers/Data scientists for validating with respect to methods as per aforementioned files.
 4. Includes a .whl file to install using "pip".
-5. Please refer the guide(pdf file) for installation instructions & usage details.
+5. Please refer the guide(TFT_UserGuide_v1.5.pdf) in this repo, for installation instructions & usage details.
 
 Please write to the authors for any queries.
 # Authors' Distribution List:
 TFTAuthors
 # Demo Video Link:
-
+To be updated.
 
