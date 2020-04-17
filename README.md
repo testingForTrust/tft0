@@ -1,5 +1,5 @@
 # TestingForTrust-TFT-
-Tool to Validate ML Models in a holistic manner using existing methods. Helps to explore the input space in a convinient way & discover failure cases as a pre-emptive measure.
+Tool to Validate ML Models in a holistic manner using existing methods. Helps to explore the input space in a convenient way & discover failure cases as a pre-emptive measure.
 # ABOUT THE CODE (HOW TO USE THIS LIBRARY):
 1. The package "tft" (folder tft) has been organized with following files.
 (a) to test image classifier models using existing methods : generalization_image.py, robustness_image.py & interpretability_image.py 
