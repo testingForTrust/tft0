@@ -1,4 +1,4 @@
-# author: Anonymous
+# author: TFTAuthors@accenture.com
 # This file is prepared to test(test) mobilenet model trained on four traffic signs
 
 import tensorflow as tf

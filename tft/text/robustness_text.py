@@ -1,4 +1,4 @@
-# author: Anonymous
+# author: TFTAuthors@accenture.com
 # Purpose: This module abstracts different methods to audit word embeddings for Robustness
 # ref: https://github.com/vecto-ai/word-benchmarks for sample test data
 

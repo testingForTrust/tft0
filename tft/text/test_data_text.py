@@ -1,4 +1,4 @@
-# author: Anonymous
+# author: TFTAuthors@accenture.com
 # Purpose: this file has modules(functions) to load test data for testing word embeddings with respect to analogies,
 # clustering, synonymns and outlier tasks
 

@@ -1,4 +1,4 @@
-# author: Anonymous
+# author: TFTAuthors@accenture.com
 # Purpose: This Module contains different utility methods for text_data
 import json
 import csv

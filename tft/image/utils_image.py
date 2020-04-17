@@ -1,4 +1,4 @@
-# author: Anonymous
+# author: TFTAuthors@accenture.com
 # This file contains some utility methods that could come handy for integrating different methods to tft library.
 
 import json

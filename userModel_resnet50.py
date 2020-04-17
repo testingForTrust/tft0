@@ -1,4 +1,4 @@
-# author: Anonymous
+# author: TFTAuthors@accenture.com
 # TFT on Saved ResNet model (imagenet dataset)
 # Resnet50 architecture trainied on ImageNet data
 # Link to the model: http://download.tensorflow.org/models/official/20181001_resnet/savedmodels/resnet_v2_fp32_savedmodel_NCHW.tar.gz

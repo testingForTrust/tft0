@@ -1,4 +1,4 @@
-# author: Anonymous
+# author: TFTAuthors@accenture.com
 # Purpose: This file defines a class that helps determine the performance of a model
 # [a] time to inference
 # [b] time it takes to pre_process a batch of data by the model

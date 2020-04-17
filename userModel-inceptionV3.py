@@ -1,4 +1,4 @@
-# Author: Anonymous
+# Author: TFTAuthors@accenture.com
 # This file is prepared to test(test) Google's inceptionV3 model trained on image net data based on Tensorflow(TF) Slim
 # TF-Slim is a library that makes building, training and evaluation neural networks simple
 # Source: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim
@@ -114,20 +114,16 @@ model_file_name = r''  """A string which is the file name along with the extensi
                           It must be one of .h5, .meta and .pb file names."""
 
 # instantiate the Model class and start testing the model against different methods..
-
 model = Model(os.path.join(PATH_TO_THE_MODEL, model_file_path))
-
 test0 = AdversarialPatches(model, IMAGE_SAMPLES_FOLDER, IMAGE_VS_LABELS_CSV, PATH_TO_SAVE_RESULTS, PROJECT_NAME,
                             PATH_TO_JSON_INDEX_CLASS_MAPPING, 1001, PATH_TO_THE_MODEL, model_file_name, 'x:0',
                             'InceptionV3/Logits/SpatialSqueeze:0', 13, (-1, 1), 'rectangle', 4, learning_rate=5.0)
 result = test0.run()
 print(result)                         
-
 test1 = AdversarialInputs(model, IMAGE_SAMPLES_FOLDER, IMAGE_VS_LABELS_CSV, PATH_TO_SAVE_RESULTS,
                            PROJECT_NAME, PATH_TO_JSON_INDEX_CLASS_MAPPING, 1001, threshold=0.1)
 result = test1.fgsm(0.015)  # epsilon value
 print(result)
-
 result = test1.cw()  # Carlini & Wagner Method: can take optional learning rate & number of iterations
 print(result)
 

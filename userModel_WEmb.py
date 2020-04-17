@@ -1,4 +1,4 @@
-# authors:Anonymous
+# authors:TFTAuthors@accenture.com
 # This file is prepared to test word embeddings
 
 import numpy as np
@@ -24,7 +24,7 @@ class Model:
                 self.embedding_dict_normalized[line[0]] = self.embedding_dict[line[0]]/np.linalg.norm(self.embedding_dict[line[0]])
 
 
-PATH_TO_MODEL = r'C:\Users\Anonymous\Downloads\glove\glove.6B.300d.txt'
+PATH_TO_MODEL = r'C:\Users\Downloads\glove\glove.6B.300d.txt'
 
 # Handle custom data?
 # We can supply the data used by us where users can test using it or may test with their custom data

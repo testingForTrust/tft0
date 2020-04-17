@@ -11,7 +11,7 @@ Tool to Validate ML Models in a holistic manner using existing methods. Helps to
 
 Please write to the authors for any queries.
 # Authors' Distribution List:
-TFTAuthors
+TFTAuthors@accenture.com
 # Demo Video Link:
-To be updated.
+https://youtu.be/mDx1B077iLM
 
