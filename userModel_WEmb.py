@@ -1,4 +1,4 @@
-# authors:TFTAuthors@accenture.com
+# authors:TFTAuthors
 # This file is prepared to test word embeddings
 
 import numpy as np

@@ -19,8 +19,8 @@ tft_dependencies = [
 setuptools.setup(
     name="tft",
     version="tft_v1.5",
-    author="TFTAuthors@accenture.com",
-    author_email="TFTAuthors@accenture.com",
+    author="TFTAuthors",
+    author_email="TFTAuthors",
     description="tft-->Testing For Trust",
     long_description=long_description,
     long_description_content_type="text/markdown",

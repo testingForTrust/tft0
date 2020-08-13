@@ -1,4 +1,4 @@
-# authors: TFTAuthors@accenture.com
+# authors: TFTAuthors
 import tensorflow as tf
 from keras.applications import densenet
 import matplotlib.pyplot as plt

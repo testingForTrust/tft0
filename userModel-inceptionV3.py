@@ -1,4 +1,4 @@
-# Author: TFTAuthors@accenture.com
+# Author: TFTAuthors
 # This file is prepared to test(test) Google's inceptionV3 model trained on image net data based on Tensorflow(TF) Slim
 # TF-Slim is a library that makes building, training and evaluation neural networks simple
 # Source: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim
