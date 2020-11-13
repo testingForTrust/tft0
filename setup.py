@@ -4,7 +4,7 @@ with open("README", "r") as fh:
     long_description = fh.read()
     
 tft_dependencies = [
-           'tensorflow==1.10.0',
+           'tensorflow==2.3.1',
            'numpy==1.14.4',
            'matplotlib==2.2.3',
            'scipy==1.1.0',
