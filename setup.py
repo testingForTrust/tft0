@@ -5,7 +5,7 @@ with open("README", "r") as fh:
     
 tft_dependencies = [
            'tensorflow==1.10.0',
-           'numpy==1.14.4',
+           'numpy==1.22.0',
            'matplotlib==2.2.3',
            'scipy==1.1.0',
            'scikit-image==0.14.0',
